@@ -21,6 +21,12 @@ app_license = "mit"
 # 	}
 # ]
 
+app_include_css = ["/assets/blackgreen_pro_theme/css/custom.css"]
+app_include_js=["/assets/blackgreen_pro_theme/js/added_custom_css.js"]
+
+
+
+
 # Includes in <head>
 # ------------------
 

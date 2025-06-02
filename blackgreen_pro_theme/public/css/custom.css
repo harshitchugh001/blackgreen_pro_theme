@@ -1,0 +1,1140 @@
+/* ----------- Sidebar Styles ----------- */
+
+/* html[data-theme="dark"][data-theme-mode="dark"],
+.standard-sidebar-section {
+    background-color: #1c1c1c;
+    padding: 12px 0;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+} */
+
+/* .sidebar-label {
+    color: #ccc;
+    font-weight: bold;
+    padding: 12px 20px 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+} */
+
+.desk-sidebar-item {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    color: #f0f0f0;
+    transition: background-color 0.2s ease;
+    font-size: 14px;
+    /* border-radius: 6px; */
+}
+
+
+.menu-item-icon svg * {
+  stroke: black;
+}
+
+
+
+
+
+/* .page-head.flex .container {
+    display: none;
+  } */
+
+
+/* .justify-content-end {
+    justify-content: flex-start !important;
+} */
+
+/* .desk-sidebar-item:hover {
+    background-color: #2a2a2a;
+}
+
+.desk-sidebar-item.selected {
+    background-color: #6CBE03;
+    color: #fff;
+    font-weight: bold;
+} */
+
+/* .desk-sidebar-item .sidebar-item-label {
+    margin-left: 10px;
+} */
+
+
+/* .navbar, .layout-side-section {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+} */
+
+
+.page-head {
+    z-index: 6;
+    position: sticky;
+    top: var(--navbar-height);
+    transition: 0.5s top;
+}
+
+
+
+
+.page-container {
+  background: linear-gradient(to right, #1E1E1E 19%, #E9ECEF 19%);
+}
+
+/* For screens around 12–13 inch (max-width ~1440px) */
+@media screen and (max-width: 1640px) {
+  .page-container {
+    background: linear-gradient(to right, #1E1E1E 16%, #E9ECEF 16%);
+  }
+  .navbar-home img {
+    width: 75%;
+  }
+  .navbar-home::before {
+    content: "";
+    display: inline-block;
+    height: 28px;
+    padding-top: 13px;
+    width: 183px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/eco-logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 14px;
+  }
+}
+
+@media screen and (min-width: 1450px) and (max-width: 1900px) {
+  .navbar-home::before {
+    content: "";
+    display: inline-block;
+    height: 28px;
+    padding-top: 13px;
+    width: 191px;
+    background-image: url(https://prod-test-ecovista.nestorhawk.com/files/eco-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 14px;
+  }
+}
+@media screen and (min-width: 950px) and (max-width: 1400px) {
+  .navbar-home::before {
+    content: "";
+    display: inline-block;
+    height: 28px;
+    padding-top: 13px;
+    width: 145px; /* You can adjust width if needed */
+    background-image: url(https://prod-test-ecovista.nestorhawk.com/files/eco-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 14px;
+  }
+}
+
+
+
+  
+  
+  @media (max-width: 980px) {
+    .page-container {
+      background: #E9ECEF;
+    }
+    .main-section {
+        background: #E9ECEF;
+
+    }
+    .navbar {
+        background: white;
+    }
+
+    .title-text {
+        color: black;
+    }
+
+    .page-title .title-area .title-text {
+        font-size: var(--text-2xl);
+        font-weight: var(--weight-bold);
+        letter-spacing: .030px;
+        cursor: pointer;
+        margin-bottom: 0;
+        margin-right: var(--margin-sm);
+        max-width: 25vw;
+        color: black;
+    }
+
+    
+  }
+
+
+  @media (max-width: 980px) {
+    .flex h3 {
+      color: black;
+    }
+  }
+  
+
+
+
+  @media (max-width: 991px) {
+    .layout-side-section .overlay-sidebar.opened {
+        transform: translateX(0);
+        overflow-y: auto;
+        background: #1E1E1E;
+    }
+}
+  
+/* background-color: white !important; */
+
+
+/* .main-section {
+    /* padding: 0 1rem; */
+    /* background: linear-gradient(to right, #1E1E1E 250px, #E9ECEF 250px);
+     */
+     /* background: linear-gradient(to right, #1E1E1E 15vw, #E9ECEF 15vw); */
+     /* background: linear-gradient(to right, #1E1E1E 16%, white 16%);
+
+} */ 
+
+.main-section {
+  background: linear-gradient(to right, #1E1E1E 19%, #E9ECEF 19%);
+}
+
+/* For 12–13 inch screens (approx up to 1440px width) */
+@media screen and (max-width: 1440px) {
+  .main-section {
+    background: linear-gradient(to right, #1E1E1E 16%, #E9ECEF 16%);
+  }
+}
+
+
+.navbar .container {
+    padding: 0 !important;
+}
+
+#navbar-breadcrumbs a:before {
+    content: var(--right-arrow-svg);
+    display: inline-block;
+    margin-right: 10px;
+    color: black;  
+}
+
+.sidebar-section.filter-section li {
+    color: white !important;
+  }
+  
+
+#navbar-breadcrumbs a:before svg {
+    fill: black; 
+}
+
+
+.std-form-layout > .form-layout > .form-page {
+    border-radius: var(--border-radius-md);
+    border: 1px solid var(--border-color);
+    box-shadow: none;
+    background-color: white !important;
+}
+
+.standard-sidebar .standard-sidebar-section .standard-sidebar-label, .desk-sidebar .standard-sidebar-section .standard-sidebar-label, .search-dialog .search-results .search-sidebar .standard-sidebar-section .standard-sidebar-label {
+    margin-bottom: var(--margin-md);
+    margin-top: var(--margin-sm);
+    width: 100%;
+    color: white;
+}
+
+
+[shortcut_name] {
+  /* overflow: hn; */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block; /* Or inline-block if needed */
+  max-width: 100%;
+}
+
+
+@media (min-width: 981px) {
+  .navbar {
+    height: 48px;
+    background: linear-gradient(to right, #1E1E1E 19%, white 19%);
+    border-bottom: none;
+    padding: 0;
+  }
+}
+
+/* For medium screens (up to 1440px) */
+@media (min-width: 981px) and (max-width: 1640px) {
+  .navbar {
+    background: linear-gradient(to right, #1E1E1E 16%, white 16%);
+  }
+}
+
+/* shivam sir  */
+.sidebar-item-icon{
+  display:none;
+}
+
+.desk-sidebar-item.standard-sidebar-item.selected a span {
+    color: #6CBE03;
+  }
+  
+
+.desk-sidebar-item.standard-sidebar-item.selected a {
+    color: #6CBE03;
+  }
+
+.standard-sidebar .standard-sidebar-item.selected, .desk-sidebar .standard-sidebar-item.selected, .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected {
+    background-color: black;
+    color: #6CBE03;
+}
+
+.standard-sidebar .standard-sidebar-item:hover, .desk-sidebar .standard-sidebar-item:hover, .search-dialog .search-results .search-sidebar .standard-sidebar-item:hover {
+    background-color: #1E1E1E;
+    color:#6CBE03;
+    text-decoration: none;
+}
+
+
+/* .navbar-brand.navbar-home a {
+    color: black !important;
+}
+
+
+.navbar-brand.navbar-home ul li a {
+    color: black !important;
+  } */
+
+.nav.navbar-nav.d-none.d-sm-flex li a {
+    color: black !important;
+}
+
+
+.desk-sidebar-item.selected a span svg {
+    fill: #6CBE03 !important;
+  }
+  
+
+  .desk-sidebar-item.standard-sidebar-item a span svg{
+    fill: white;
+    stroke:white;
+  }
+
+  .sidebar-item-icon svg use {
+    fill: white !important;
+    color: white !important; 
+  }
+  
+
+  .sidebar-item-icon svg use[href="#icon-unhide"] {
+    fill: white !important;
+  }
+
+
+  .widget-title,
+.ellipsis {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  word-wrap: break-word;
+}
+
+  
+  /* .ellipsis {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  } */
+
+
+  .navbar-home img {
+    display: none; /* Hide original image */
+}
+
+/* .navbar-home::before {
+  content: "";
+  display: inline-block;
+  height: 28px;
+  padding-top: 13px;
+  width: 205px;
+  background-image: url('https://prod-test-ecovista.nestorhawk.com/files/eco-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 14px;
+} */
+
+  
+  
+  
+  
+
+.page-head {
+    background-color: transparent !important;
+  }
+
+
+  .navbar-home img {
+    max-height: 28px;
+    width: 94%;
+    padding: 0 2rem;
+}
+
+
+.search-bar .awesomplete input:focus {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: white !important;
+  }
+  
+
+
+  .awesomplete > [role=listbox] > li:hover, .awesomplete > [role=listbox] > li[aria-selected=true], .awesomplete > [role=listbox] > [role=option]:hover, .awesomplete > [role=listbox] > [role=option][aria-selected=true] {
+    background-color: white !important;
+    color: black !important;
+}
+  
+
+
+.page-form .frappe-control input {
+    /* border: 2px solid #6CBE03; */
+    /* background-color: #484948; */
+    /* color: #f5eded; */
+    border-radius: 8px;
+}
+
+
+.search-bar .awesomplete ul {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    box-shadow: var(--awesomebar-shadow);
+    background: white !important;
+}
+
+
+.search-bar .awesomplete ul li a{
+    color: black;
+  }
+  
+
+.search-bar input {
+    background-color: white;
+    /* border: 1px solid #6CBE03; */
+    border-radius: 6px;
+}
+
+
+.btn {
+    background-color: #6CBE03 !important;
+    color: white !important;
+    font-size: 14px !important;
+    border-radius: 8px;
+    border: none;
+}
+
+/* .btn:hover {
+    background-color: #43a047 !important;
+} */
+
+b, strong {
+    color: black !important;
+}
+
+[data-page-route=Workspaces] .codex-editor .codex-editor__redactor .ce-block .ce-block__content .ce-header .h4 {
+    font-size: var(--text-xl);
+    font-weight: var(--weight-semibold);
+    letter-spacing: .030px;
+    color: black !important;
+}
+@media (min-width: 981px) {
+    .page-title .title-area .title-text {
+      font-size: var(--text-2xl);
+      font-weight: var(--weight-bold);
+      letter-spacing: 0.030px;
+      cursor: pointer;
+      margin-bottom: 0;
+      margin-right: var(--margin-sm);
+      max-width: 25vw;
+      color: white;
+    }
+  }
+  
+
+
+.widget.links-widget-box {
+    padding: 10px;
+    background-color: white;
+}
+
+
+.widget.links-widget-box .link-item .disabled-link {
+    /* color: var(--text-muted); */
+    color: black;
+}
+
+/* .widget.shortcut-widget-box {
+    background-color: white;
+    height: 80px;
+    padding: 0 16px;
+    overflow-wrap: break-word !important; 
+    display: flex; 
+    align-items: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow-wrap: break-word !important;
+    word-wrap: break-word;
+    padding-top: 22px;
+} */
+
+.widget.shortcut-widget-box {
+  background-color: white;
+  height: 80px;
+  padding: 0px 37px;
+  overflow-wrap: break-word !important;
+  display: flow;
+  /* justify-content: center; */
+  align-items: center;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  overflow-wrap: break-word !important;
+  word-wrap: break-word;
+  padding-top: 21px;
+}
+
+.widget-title {
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold;
+    word-wrap: break-word; /* Allows breaking of text into the next line if needed */
+    text-overflow: ellipsis; /* Adds "..." if the text overflows */
+    overflow: hidden; /* Ensures no overflow */
+    line-height: 1.2em; /* Helps with vertical spacing if text wraps */
+}
+
+
+.form-sidebar-items span,.form-sidebar-items span
+.form-sidebar-items svg {
+  color: white;
+  fill: white;
+  stroke: white;
+}
+
+
+.sidebar-toggle-btn svg {
+    fill: white !important;
+  }
+
+
+  .actions-btn-group {
+    position: relative;
+  }
+
+
+  .dropdown-menu.show {
+    display: block;
+    left: -145px !important;
+}
+
+
+
+  .menu-btn-group .dropdown-menu, .custom-btn-group .dropdown-menu, .page-icon-group .dropdown-menu {
+    width: max-content;
+    left: -129px !important;
+}
+  
+  .actions-btn-group .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: none !important;
+    will-change: unset;
+  }
+  
+  
+
+
+
+
+
+
+/* Customer - 👤 */
+.widget-title span[title="Customer"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Customer.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+  /* Supplier - 🏭 */
+  .widget-title span[title="Supplier"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Supplier.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .widget-title span[title="Material Request"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Material%20Request.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Item - 📦 */
+  .widget-title span[title="Item"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Item.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Sales Invoice - 🧾 */
+  .widget-title span[title="Sales Invoice"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Sales%20Inovice.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Leaderboard - 🏆 */
+  .widget-title span[title="Leaderboard"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Leaerboard.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .widget-title span[title="Gate Pass"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Gatepass.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .widget-title span[title="Asset Proposal and Budgeting"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Budgeting.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .widget-title span[title="Weighment"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/weighment.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+
+  .widget-title span[title="Chart of Accounts"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Chart%20of%20account.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+ 
+
+
+  .widget-title span[title="Purchase Invoice"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Purchase%20Invoice.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .widget-title span[title="Journal Entry"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Journal%20Entry.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .widget-title span[title="Payment Entry"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Payment.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .widget-title span[title="Accounts Receivable"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Chart%20of%20account.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .widget-title span[title="General Ledger"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/General%20-Ledger.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .widget-title span[title="Trial Balance"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Trial%20Balance.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .widget-title span[title="Dashboard"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Dashboard.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+
+  .widget-title span[title="Learn Accounting"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Learn.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .widget-title span[title="Purchase order"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Purchase%20Orer.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .widget-title span[title="Purchase Analytics"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Purchase%20anaylitcis.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .widget-title span[title="Purchase Order Analysis"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Purchase%20order%20Analytics.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .widget-title span[title="Learn Procurement"]::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+    background-image: url('https://prod-test-ecovista.nestorhawk.com/files/Learn.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+
+
+.widget.shortcut-widget-box .widget-head .widget-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: -6px;
+    margin-bottom: -10px;
+    color: black;
+}
+
+.desk-sidebar-item.standard-sidebar-item.selected a {
+    color: #6CBE03;
+    background-color: black;
+}
+
+
+[data-page-route=Workspaces] .standard-sidebar-item .sidebar-item-label {
+    flex: 1;
+    color: white;
+}
+
+li.add-list-group-by.sidebar-action a {
+    color: white !important;
+  }
+  
+.sidebar-action.show-tags a {
+    color: white !important;
+}
+
+.sidebar-section.save-filter-section li {
+    color: white !important;
+  }
+  
+  
+
+
+html, body {
+    background-color: var(--bg-color);
+    zoom: 113%;
+}
+
+
+/* .widget {
+    display: flex;
+    flex-direction: column;
+    min-height: 1px;
+    padding: 7px;
+    border-radius: var(--border-radius-lg);
+    height: 100%;
+    background-color: white;
+} */
+
+
+.indicator-pill{
+    color: white;
+}
+
+.ellipsis, .awesomplete>[role=listbox]>li, .awesomplete>[role=listbox]>[role=option], .widget.shortcut-widget-box .indicator-pill {
+  max-width: 100%;
+  vertical-align: middle;
+  /* color: white; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* display: block;  */
+  max-width: 100%; /* Ensure it respects container width */
+}
+
+
+.input-group.search-bar.text-muted div input {
+    border-radius: 7px;
+    border: 1px solid #1E1E1E;
+    background: #E9ECEF;
+}
+
+.comments.d-flex.align-items-center span {
+    color: white !important;
+}
+
+.liked-by span {
+    color: white;
+  }
+
+  .es-icon use {
+    fill: white;
+  }
+
+  
+
+  
+  .list-unstyled.sidebar-menu.user-actions li a {
+    color: white;
+  }
+
+  .sidebar-menu p a {
+    color: white;
+  }
+  
+  
+  
+
+
+
+.form-sidebar-items span a {
+    color: white !important;
+}
+
+
+.form-sidebar .form-sidebar-stats li:first-child .form-follow {
+    text-transform: uppercase;
+    font-size: var(--text-xs, 11px);
+    color: white;
+}
+
+
+.list-unstyled.sidebar-menu.text-muted li {
+    color: white !important;
+}
+
+
+
+.icon-sm {
+    width: 16px;
+    height: 16px;
+    stroke: white;
+}
+
+
+.widget {
+    display: flex;
+    flex-direction: column;
+    min-height: 1px;
+    padding: 7px;
+    border-radius: var(--border-radius-lg);
+    height: 100%;
+    background-color: white;
+}
+
+
+.widget.shortcut-widget-box .widget-head .widget-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: -6px;
+    margin-bottom: -10px;
+    color: black;
+}
+
+[data-theme=dark] .chart-container {
+    --charts-label-color: black;
+    /* lack: black; */
+    --charts-stroke-width: 5px;
+    --charts-dataset-circle-stroke: #ffffff;
+    --charts-dataset-circle-stroke-width: var(--charts-stroke-width);
+    --charts-tooltip-title: var(--charts-label-color);
+    --charts-tooltip-label: var(--charts-label-color);
+    --charts-tooltip-value: white;
+    --charts-tooltip-bg: var(--gray-900);
+    --charts-legend-label: var(--charts-label-color);
+}
+
+
+.chart-container .axis, .chart-container .chart-label {
+    fill: black;
+}
+
+.chart-container .axis, .chart-container .chart-label {
+    fill: black;
+}
+
+
+.widget.number-widget-box .widget-body .widget-content .number {
+    font-size: var(--text-2xl);
+    font-weight: var(--weight-semibold);
+    letter-spacing: .030px;
+    line-height: var(--text-line-height-3xl);
+    color: black;
+}
+
+
+.widget.dashboard-widget-box {
+    min-height: 240px;
+    border: 2px solid white;
+    /* background-color: white; */
+}
+
+
+[data-page-route=Workspaces] .widget.number-widget-box {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+}
+
+
+
+.widget .widget-head .widget-control {
+    display: none;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+[data-page-route=Workspaces] .codex-editor .codex-editor__redactor .ce-block .ce-block__content>div {
+    /* height: 100%; */
+    background-color: transparent !important;
+}
+
+
+.navbar-collapse{
+    justify-content: flex-start !important;
+}
+
+
+.widget.dashboard-widget-box {
+    min-height: 240px;
+    /* border: 2px solid #6CBE03; */
+    background-color: white;
+}
+
+/* [data-page-route=Workspaces] .layout-main-section-wrapper {
+    background-color: white !important; 
+} */
+
+
+[data-page-route=Workspaces] .layout-main-section {
+    background-color: transparent !important;
+    
+}
+
+
+
+
+/* .standard-sidebar-section{
+    background-color: #2e2d2d !important; 
+    color: #ffffff !important; 
+
+} */
+
+/* .sidebar-item-label {
+    color: white !important;
+}
+
+
+.sidebar-item-icon svg path {
+    fill: white !important;
+} */
+
+
+/* .page-container{
+    background-color: #2e2d2d !important;
+}
+
+
+.section-title{
+    color: white !important;
+
+}
+
+.container{
+    background-color: #2e2d2d !important;
+}
+
+
+.page-head{
+    background-color: #2e2d2d !important;
+} */
+
+
+
